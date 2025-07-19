@@ -16,6 +16,7 @@ const AppRouter = () => (
           <Route path="/register/vendor" element={<RegisterVendor />} />
           <Route path="/dashboard" element={<DashboardPage />} />
         </Routes>
+        
 );
 
 export default AppRouter;

@@ -22,6 +22,8 @@ app.use(cors(
     }
 ));
 
+
+
 app.use(notFoundErrorHandler)
 app.use(databaseErrorHandler)
 app.use(globalErrorHandler)
